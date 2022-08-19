@@ -38,7 +38,7 @@ export const PokemonCard = ({pokemon}: Props) => {
         activeOpacity={0.9}
         onPress={() =>
           navigation.navigate('PokemonScreen', {
-            pokemon: pokemon,
+            simplePokemon: pokemon,
             color: bgColor,
           })
         }>

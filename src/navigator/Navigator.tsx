@@ -6,7 +6,7 @@ import {PokemonScreen} from '../screens/PokemonScreen';
 
 export type RootStackParams = {
   HomeScreen: undefined;
-  PokemonScreen: {pokemon: SimplePokemon; color: string};
+  PokemonScreen: {simplePokemon: SimplePokemon; color: string};
 };
 
 const Stack = createStackNavigator<RootStackParams>();
